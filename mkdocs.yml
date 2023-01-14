@@ -1,0 +1,18 @@
+site_name: WagtailEcommerce Documentation
+nav:
+  - Home: index.md
+  - About: about.md
+theme:
+  name: readthedocs
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  custom_dir: overrides
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+copyright: It's Me!
